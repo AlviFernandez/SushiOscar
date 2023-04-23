@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    background-color : rgb(33, 33, 33);
+    margin-top: -0.3%;
+    height: 15vh;
+}
+
+main {
+    margin-top: 40%;
+}
+
+footer {
+    background-color: rgb(33, 33, 33);
+    height: 20vh;
+    margin-top: 20vh;
+} 
+
+.h1__img {
+    margin-left: 10%;
+    width: 50vh;
+    height: 30vh;
+    border-radius: 5%;
+    box-shadow: 7px 6px 6px;
+    opacity: 85%;
+}
+
+.h1__inicio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+.img__fondo {
+    margin-top: -50.9%;
+    width: 100%;
+    height: 30vw;
+    opacity: 88%;
+}
+
+.galeria {
+    margin-left: 10%;
+    text-align: left;
+    font-family: monospace;
+    margin-top: 10%;
+}
+
+.h1__ubicacion {
+    margin-left: 10%;
+    text-align: left;
+    font-family: monospace;
+    margin-top: 10%;
+}
+
+.h1__titulo {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+}
+
+.h1__header {
+    text-align: center;
+    margin-top: -3.5%;
+    color: white;
+    font-family: monospace;
+}
+
+.p__medio {
+    text-align: center;
+    width: 35%;
+    font-size: 3vh;
+    font-family: monospace;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.img1 {
+    border-radius: 15%;
+    height: 20vh;
+    margin: 2%;
+}
+
+.img__logo {
+    border-radius: 50%;
+    height: 10vh;
+    margin-top: -5%;
+    margin-left: 20px;
+}
+
+.img1:focus {
+    background-color: white;
+    opacity: 0.85;
+  }
+
+  .img1:hover {
+    transform: scale(1.1);
+}
+
+/* .img__logo {
+    border-radius: 50%;
+} */
+
+.espacio {
+    margin-top: 5%;
+}
+
+.grid__padre {
+    margin-left: 12.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+iframe {
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 8px;
+    background-color: (255 255 255);
+    height: 50vh;
+    width: 80vh;
+}
+
+.nav__lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+    margin-left: 85%;
+    margin-top: 3%;
+  }
+
+.nav__item {
+    font-size: 1.5rem;
+    margin-left: 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .nav__item a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Div */
+   .div__ubicacion {
+    color: white;
+    background-color: rgb(33, 33, 33);
+    border-radius: 1%;
+    width: 30%;
+    height: 50vh;
+    margin-left: 49%;
+    margin-top: -24.2%;
+}
+
+/* .div__menu {
+
+} */
